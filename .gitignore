@@ -1,0 +1,9 @@
+# Dependencias
+
+/node_modules
+
+# Misceláneo
+
+.env
+
+.eslintrc.json
