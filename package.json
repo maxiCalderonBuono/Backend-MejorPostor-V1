@@ -12,7 +12,7 @@
   "autores": "Gibbs Ignacio",
   "license": "ISC",
   "engines": {
-    "node": "14.x"
+    "node": "16.14.2"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
