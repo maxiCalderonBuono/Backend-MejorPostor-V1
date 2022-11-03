@@ -8,6 +8,7 @@ const { v4: uuid } = require("uuid");
 const jwtOptions = { algorithm: "RS256", expiresIn: "900s" };
 
 exports.signUp = async (req, res) => {
+  console.log(`req.body:`, req.body);
   try {
     const {
       username,
@@ -269,6 +270,7 @@ exports.signUp = async (req, res) => {
 };
 
 exports.signIn = async (req, res) => {
+  console.log(`req.body:`, req.body);
   try {
     const { email, password } = req.body;
 

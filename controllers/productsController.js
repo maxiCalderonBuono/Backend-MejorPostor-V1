@@ -17,6 +17,7 @@ exports.createProduct = async (req, res) => {
     } = req.body;
 
     const user = await User.findById(id);
+
     const highestBidUser = await User.findById(bidUser);
 
     const newProduct = new Product({
@@ -29,8 +30,10 @@ exports.createProduct = async (req, res) => {
       duration,
       highestBid,
       user: user._id,
-      bidUser: highestBidUser._id,
+      bidUser: highestBidUser?._id,
     });
+
+    console.log(`newProduct:`, newProduct);
 
     await newProduct.save();
 
