@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Proyecto Final Avanzado Back End",
   "main": "app.js",
-  "engines": {
-    "node":"14.x"
-  },
   "private": true,
   "scripts": {
     "start": "node app",
