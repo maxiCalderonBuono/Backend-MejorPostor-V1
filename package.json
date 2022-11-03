@@ -2,7 +2,7 @@
   "name": "mejorpostor-backend",
   "version": "1.0.0",
   "description": "Proyecto Final Avanzado Back End",
-  "main": "app.js",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "start": "node app",
