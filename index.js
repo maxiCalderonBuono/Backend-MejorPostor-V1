@@ -1,5 +1,5 @@
 //Configuramos dotenv
-//require("dotenv").config();
+require("dotenv").config();
 
 // Genera los roles la primer vez que se inicializa la app
 
